@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(./tile.jpg);
+}
+
+#form {
+  text-align: center;
+  justify-content: center;
+}
+
+#header {
+  /* background-image: url(./title.png); */
+  font-family: "Sofia", sans-serif;
+  font-size: 70px;
+  text-shadow: 3px 3px 3px #ababab;
+  text-align: center;
+
+  margin-top: 30px;
+  margin-bottom: 40px;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+}
+
+#details {
+  background-image: url(./formbg.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 50;
+  height: 20vh;
+  width: 470px;
+  border: hidden;
+  outline: none;
+  padding: 10px;
+  margin: 0px;
+  line-height: 35px;
+  resize: none;
+}
+
+#time {
+  background-image: url(./formbg.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 470px;
+  border: hidden;
+  outline: none;
+}
+
+#date {
+  /* background-image: url(./formbg.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  height: 50px;
+  width: 470px;
+  border: hidden;
+  outline: none; */
+  background-image: url(./formbg.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 470px;
+  border: hidden;
+  outline: none;
+}
+
+/* .note {
+  background-image: url(./notebg.png);
+  background-repeat: no-repeat;
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+  background-size: contain;
+} */
+
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.note {
+  background-image: url(./notebg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25vh;
+  width: 30vh;
+  margin: 5px;
+}
+
+.textnote {
+  display: inline-block;
+  /* padding-top: 10%;
+  padding-left: 3%; */
+  height: 10vh;
+  width: 15vh;
+  margin: 10px;
+  margin-top: 30px;
+  resize: none;
+  outline: none;
+}
+
+.footernote {
+  padding-left: 1%;
+  font-size: 0.6vw;
+  margin-top: 6vh;
+}
+
+/* .btn-close {
+  display: inline-block;
+} */
+
+.hide {
+  display: none;
+  position: relative;
+}
+
+div.note:hover button {
+  display: inline-block;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
